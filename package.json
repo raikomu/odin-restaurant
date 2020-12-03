@@ -1,0 +1,23 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "Solution for [Project: Restaurant Page](https://theodinproject.com/courses/javascript/lessons/restaurant-page) as part of [The Odin Project](https://www.theodinproject.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raikomu/odin-restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raikomu/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/raikomu/odin-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
