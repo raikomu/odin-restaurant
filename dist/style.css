@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   background: #000;
   width: 80%;
+  min-width: 800px;
   min-height: 100vh;
 }
 
@@ -15,10 +16,21 @@ body {
   margin: 0 auto;
 }
 
+#main-nav {
+  margin: 40px auto;
+  width: 640px;
+  display: flex;
+  justify-content: space-around;
+  color: silver;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+  font-size: larger;
+}
+
+
 #alley {
+  margin: 0 auto;
   width: 64%;
   display: block;
-  margin: 0 auto;
 }
 
 #copy {

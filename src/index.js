@@ -1,3 +1,5 @@
-import loader from "./loader"
+import loadMenu from './menu'
+import loadHome from './home'
 
-loader()
+loadMenu()
+loadHome()
