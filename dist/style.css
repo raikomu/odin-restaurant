@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+#content {
+  margin: 0 auto;
+  background: #000;
+  width: 80%;
+  min-height: 100vh;
+}
+
+#logo {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+#alley {
+  width: 64%;
+  display: block;
+  margin: 0 auto;
+}
+
+#copy {
+  margin: 0 auto;
+  width: 64%;
+  color: lightskyblue;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1.2em;
+  font-stretch: wider;
+  text-align: center;
+}
