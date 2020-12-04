@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0 auto;
+  width: 64%;  color: lightskyblue;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1.2em;
+  font-stretch: wider;
+  text-align: center;
+}
+
 #content {
   margin: 0 auto;
   background: #000;
@@ -34,11 +43,4 @@ body {
 }
 
 #copy {
-  margin: 0 auto;
-  width: 64%;
-  color: lightskyblue;
-  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-  font-size: 1.2em;
-  font-stretch: wider;
-  text-align: center;
 }
