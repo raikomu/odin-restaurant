@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
 }
 
 p {
@@ -51,7 +52,6 @@ td {
   display: flex;
   justify-content: space-around;
   color: silver;
-  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
   font-size: larger;
 }
 
@@ -67,4 +67,31 @@ td {
 #services {
   margin: 32px auto;
   width: 400px;
+}
+
+#contact {
+  margin: 0 auto;
+  width: 40%;
+  color: lightgoldenrodyellow;
+  font-size: smaller;
+}
+
+#staff {
+  margin: 32px auto;
+  width: 688px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: small;
+  color: lightgrey;
+}
+
+.contact-details img {
+  width: 100px;
+  height: 140px;
 }
