@@ -4,4 +4,23 @@ import loadServices from './services'
 import loadContact from './contact'
 
 loadMenu()
-loadContact()
+loadHome()
+
+const home = document.getElementById('btn-home')
+const services = document.getElementById('btn-services')
+const contact = document.getElementById('btn-contact')
+
+home.addEventListener('click', function() {
+  document.getElementById('container').innerHTML = ''
+  loadHome()
+})
+
+services.addEventListener('click', function() {
+  document.getElementById('container').innerHTML = ''
+  loadServices()
+})
+
+contact.addEventListener('click', function() {
+  document.getElementById('container').innerHTML = ''
+  loadContact()
+})

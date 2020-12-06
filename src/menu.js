@@ -1,5 +1,7 @@
 function loadMenu() {
-  const content = document.getElementById("content")
+  const content = document.getElementById('content')
+  const header = document.createElement('header')
+  const container = document.createElement('div')
   const logo = document.createElement('img')
   const nav = document.createElement('nav')
   const home = document.createElement('a')
@@ -12,14 +14,22 @@ function loadMenu() {
   home.innerHTML = 'Home'
   services.innerHTML = 'Services'
   contact.innerHTML = 'Contact'
+  home.setAttribute('id', 'btn-home')
+  services.setAttribute('id', 'btn-services')
+  contact.setAttribute('id', 'btn-contact')
 
   nav.setAttribute('id', 'main-nav')
   nav.appendChild(home)
   nav.appendChild(services)
   nav.appendChild(contact)
 
-  content.appendChild(logo)
-  content.appendChild(nav)
+  header.append(logo)
+  header.append(nav)
+
+  container.setAttribute('id', 'container')
+
+  content.appendChild(header)
+  content.appendChild(container)
 }
 
 export default loadMenu

@@ -50,9 +50,23 @@ td {
   margin: 40px auto;
   width: 640px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: silver;
+  background-color: silver;
   font-size: larger;
+}
+
+#main-nav a {
+  width: 32.8%;
+  height: 32px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+
+#main-nav a:hover {
+  color: red;
+  background-color: silver;
 }
 
 #alley {
@@ -61,12 +75,9 @@ td {
   display: block;
 }
 
-#copy {
-}
-
 #services {
   margin: 32px auto;
-  width: 400px;
+  width: 480px;
 }
 
 #contact {
@@ -78,7 +89,7 @@ td {
 
 #staff {
   margin: 32px auto;
-  width: 688px;
+  width: 720px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;

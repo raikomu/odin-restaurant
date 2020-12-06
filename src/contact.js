@@ -1,5 +1,5 @@
 function loadContact() {
-  const content = document.getElementById('content')
+  const container = document.getElementById('container')
   const contact = document.createElement('address')
   const staff = document.createElement('div')
   const shump = createContact('shump', 'Shump Livingstone', 'CEO')
@@ -17,8 +17,8 @@ function loadContact() {
   staff.appendChild(kargath)
   staff.appendChild(caiyra)
 
-  content.appendChild(contact)
-  content.appendChild(staff)
+  container.appendChild(contact)
+  container.appendChild(staff)
 }
 
 function createContact(name, fullname, position) {

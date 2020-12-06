@@ -1,5 +1,5 @@
 function loadServices() {
-  const content = document.getElementById('content')
+  const container = document.getElementById('container')
   const para = document.createElement('p')
   const servicesTable = document.createElement('table')
   const servicesHeader = document.createElement('thead')
@@ -24,8 +24,8 @@ function loadServices() {
   servicesTable.setAttribute('id', 'services')
   servicesTable.appendChild(servicesHeader)
   servicesTable.appendChild(servicesBody)
-  content.appendChild(para)
-  content.appendChild(servicesTable)
+  container.appendChild(para)
+  container.appendChild(servicesTable)
 }
 
 function createTableHeader(header, values) {
