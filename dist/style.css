@@ -1,14 +1,33 @@
 body {
   margin: 0;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
 }
 
 p {
   margin: 0 auto;
-  width: 64%;  color: lightskyblue;
+  width: 64%;
+  color: lightskyblue;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: 1.2em;
   font-stretch: wider;
   text-align: center;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+th, td {
+  text-align: center;
+}
+
+th {
+  color: gold;
+}
+
+td {
+  color: silver;
 }
 
 #content {
@@ -29,12 +48,24 @@ p {
   margin: 40px auto;
   width: 640px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: silver;
-  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+  background-color: silver;
   font-size: larger;
 }
 
+#main-nav a {
+  width: 32.8%;
+  height: 32px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+
+#main-nav a:hover {
+  color: red;
+  background-color: silver;
+}
 
 #alley {
   margin: 0 auto;
@@ -42,5 +73,34 @@ p {
   display: block;
 }
 
-#copy {
+#services {
+  margin: 32px auto;
+  width: 480px;
+}
+
+#contact {
+  margin: 0 auto;
+  width: 40%;
+  color: lightgoldenrodyellow;
+  font-size: smaller;
+}
+
+#staff {
+  margin: 32px auto;
+  width: 720px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: small;
+  color: lightgrey;
+}
+
+.contact-details img {
+  width: 100px;
+  height: 140px;
 }
